@@ -1,33 +1,32 @@
-# Check In, Everyday — Static site
+# Check In, Everyday — Static site (Journal-first)
 
 
-This repo contains a simple static site built to showcase the "Check In, Everyday" 2‑week journal and the related coaching/consulting services.
+This repo is focused on the 2‑Week Journal "Check In, Everyday" by Jesur Habek. The site centers the book's voice and practice; coaching and services are listed only as optional supports.
 
 
 ## Files
-- `index.html` — main landing page (hero, book preview, services summary, contact form)
-- `services.html` — details about coaching, workshops, and business offerings
+- `index.html` — main landing page (gentle introduction, how to use, PDF preview)
+- `services.html` — optional offerings (external booking links)
+- `privacy.html` — privacy policy (no data collected)
 - `styles.css` — site styles
-- `script.js` — small interactive enhancements
-- `assets/Check-In--Everyday-2-week-journal.pdf` — (copy of the PDF you provided)
-- `assets/cover-thumb.png` — small thumbnail for the cover (replace with your own cover image)
+- `script.js` — small UX enhancements
+- `assets/` — place the journal PDF and cover image here
 
 
-## How to publish
-1. Create a new GitHub repo and push these files to the `main` branch.
-2. In the repo Settings → Pages, serve from `main` / root. The site will be live at `https://<username>.github.io/<repo>`.
+## Publishing
+1. Create a GitHub repo and push these files to `main`.
+2. Add the files in `assets/`:
+- `Check-In--Everyday-2-week-journal.pdf` (your PDF)
+- `cover-thumb.png` (cover thumbnail)
+3. Configure GitHub Pages to serve from `main`/root.
 
 
-## Notes & next steps
-- Replace `assets/cover-thumb.png` with a high‑quality image of your cover.
-- Update the contact form action to point at your email handler or a service like Formspree / Netlify Forms.
-- If you want a React or Next.js version, tell me and I will generate it.
+## Notes
+- No forms or analytics are included. All bookings and purchases link to external sites.
+- If you'd like a ZIP, React/Next version, or small visual tweaks (fonts/colors extracted from the PDF), tell me and I will prepare the next step.
 
 
 --- FILE: assets/README.txt ---
 Place the following files in the `assets/` folder:
-- Check-In--Everyday-2-week-journal.pdf (downloaded from the link you provided)
-- cover-thumb.png (a small thumbnail of your cover; I left a placeholder)
-
-
---- END ---
+- Check-In--Everyday-2-week-journal.pdf (your uploaded PDF)
+- cover-thumb.png (a small thumbnail of your cover; replace the placeholder)
